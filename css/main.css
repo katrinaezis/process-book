@@ -1,0 +1,126 @@
+#pinLogo {
+	height: 50px;
+}
+
+#headlogo {
+	max-height: 200px;
+	display: block;
+	margin: auto;
+}
+
+#header {
+	padding-top: 10%;
+	height: 100vh;
+}
+
+#reflect {
+	height: 400px;
+	width: 600px;
+	display: block;
+	margin: auto;
+	background-image: url("../img/wecute2.jpg");
+	background-size: cover;
+}
+
+/*.team {
+	height: 200px;
+	width: 200px;
+	color: white;
+	font-size: 30pt;
+	display: inline-block;
+	margin: auto;
+	vertical-align: middle;
+}*/
+
+#introUs {
+	text-align: center;
+}
+
+.team {
+	display: inline-block;
+	margin-right: auto;
+	margin-left: auto;
+	vertical-align: middle;
+}
+
+.ideas {
+	max-height: 300px;
+}
+
+/*.natasha:hover .noverlay, .katrina:hover .koverlay, .julian:hover .joverlay {
+	-webkit-filter: blur(0px);
+  	filter: blur(0px);
+}*/
+
+/*.katrina:hover, .natasha:hover, .julian:hover {
+	-webkit-filter: blur(5px);
+  	filter: blur(5px);
+  	background-color: rgba(63, 127, 191, 0.64);
+}*/
+
+.katrina, .natasha, .julian, #thisTeam {
+	height: 300px;
+	width: 300px;
+	overflow: hidden;
+}
+
+.team {
+	margin: 5%;
+}
+
+#interview {
+	display: block;
+}
+
+#interimg {
+	margin: auto;
+	text-align: center;
+}
+
+.lofi {
+	max-height: 300px;
+	margin: 2%;
+}
+
+p {
+	font-size: 16pt;
+}
+
+.koverlay, .joverlay, .noverlay {
+	background-color: rgba(21, 101, 192, 0.9);
+	color: white;
+	height: 100%;
+	width: 100%;
+}
+
+.koverlay {
+	padding-top: 10%;
+}
+
+.joverlay, .noverlay {
+	padding-top: 25%;
+}
+
+#thisTeam {
+	color: white;
+	font-size: 40pt;
+	background-color: #1976d2;
+	padding-top: 25%;
+}
+
+.katrina {
+	border: 10px solid #2e7d32;
+	background-image: url("../img/katrina.jpg");
+
+}
+
+.natasha {
+	border: 10px solid #ffeb3b;
+	background-image: url("../img/natasha.jpg");
+
+}
+
+.julian {
+	border: 10px solid #d50000;
+	background-image: url("../img/julian.jpg");
+}

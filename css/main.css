@@ -8,9 +8,51 @@
 	margin: auto;
 }
 
+#this {
+	margin-bottom: 0px;
+	margin-top: 5%;
+}
+
+
 #header {
 	padding-top: 10%;
 	height: 100vh;
+}
+
+#hifi {
+	height: 310px;
+}
+
+#eventfill {
+	height: 290px;
+	width: 400px;
+}
+
+#choose {
+	text-align: center;
+}
+
+#chooseText {
+	padding-top: 3%;
+}
+
+#brainstorm, #interviews, #ideate, #choose, #interview, #choice, #spec, #reflection {
+	margin-bottom: 5%;
+	margin-top: 5%;
+	text-align: center;
+}
+
+#eventCard {
+	height: 400px;
+	width: 400px;
+	display: inline-block;
+	margin: 2%;
+}
+
+#choose {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #reflect {

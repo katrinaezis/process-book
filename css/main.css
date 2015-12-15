@@ -3,9 +3,15 @@
 }
 
 #headlogo {
-	max-height: 200px;
+	max-height: 100px;
 	display: block;
 	margin: auto;
+}
+
+@media screen and (min-width: 992px) {
+	#headlogo {
+		max-height: 200px;
+	}
 }
 
 #this {
